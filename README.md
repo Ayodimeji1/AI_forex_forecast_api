@@ -116,11 +116,11 @@ heroku open -a forex-forecast
 **Deployed URL: https://forex-forecast-fde2872e4c4d.herokuapp.com/**
 
 ### Technologies Used
-**Python**: Core programming language.
-**FastAPI**: Framework for building the API.
-**TensorFlow**: Machine learning library for LSTM model.
-**Docker**: Containerization for deployment.
-**Heroku**: Cloud platform for hosting.
+- **Python**: Core programming language.
+- **FastAPI**: Framework for building the API.
+- **TensorFlow**: Machine learning library for LSTM model.
+- **Docker**: Containerization for deployment.
+- **Heroku**: Cloud platform for hosting.
 
 ### Contributing
 1. Fork the repository.
