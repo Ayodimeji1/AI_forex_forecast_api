@@ -66,12 +66,12 @@ Docker
 Heroku CLI
 
 ### Local development
-**1. Clone the repository**
+1. Clone the repository
 ```
 git clone https://github.com/your-username/forex-forecast-api.git
 cd forex-forecast-api
 ```
-**2. Create virtual Environment and Install Dependencies**
+2. Create virtual Environment and Install Dependencies
 ```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
@@ -103,13 +103,13 @@ heroku login
 heroku create forex-forecast --stack=container
 
 ```
-### Push the Docker image to Heroku:
+2. Push the Docker image to Heroku:
 ```
 heroku container:push web -a forex-forecast
 heroku container:release web -a forex-forecast
 ```
 
-### Open the app:
+3. Open the app:
 ```
 heroku open -a forex-forecast
 ```
