@@ -77,22 +77,22 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-**3. Run the FastAPI app:**
+3. Run the FastAPI app:
 ```
 uvicorn app.main:app --reload
 
 ```
-**4. Access the API:**
+4. Access the API:
 ```
 Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 ```
 ### Docker Deployment
-**1. Build the Docker image:**
+1. Build the Docker image:
 ```
 docker build -t forex-forecast .
 ```
-**2. Run the Docker container:**
+2. Run the Docker container:
 ```
 docker run -p 8000:8000 forex-forecast
 ```
