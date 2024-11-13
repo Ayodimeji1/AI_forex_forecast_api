@@ -114,3 +114,29 @@ heroku container:release web -a forex-forecast
 heroku open -a forex-forecast
 ```
 **Deployed URL: https://forex-forecast-fde2872e4c4d.herokuapp.com/**
+
+### Technologies Used
+**Python**: Core programming language.
+**FastAPI**: Framework for building the API.
+**TensorFlow**: Machine learning library for LSTM model.
+**Docker**: Containerization for deployment.
+**Heroku**: Cloud platform for hosting.
+
+### Contributing
+1. Fork the repository.
+2. Create a new branch:
+```
+git checkout -b feature-name
+```
+3. Commit changes:
+```
+git commit -m "Add new feature"
+```
+4. Push to the branch:
+```
+git push origin feature-name
+```
+5. Open a pull request.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
