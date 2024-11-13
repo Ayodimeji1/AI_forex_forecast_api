@@ -19,7 +19,6 @@ The **Forex Forecast API** is a FastAPI application designed to provide accurate
 
 ## API Endpoints
 
-### **Base URL**: [`https://<your-heroku-app>.herokuapp.com`](https://<your-heroku-app>.herokuapp.com)
 
 | Method | Endpoint      | Description                          |
 |--------|---------------|--------------------------------------|
@@ -58,4 +57,33 @@ project/
 ├── Dockerfile             # Docker configuration
 ├── requirements.txt       # Python dependencies
 └── Procfile               # Heroku process definition
+```
+### Installation and Usage
+
+Prerequisites
+Python 3.9+
+Docker
+Heroku CLI
+
+### Local development
+1. Clone the repository
+```
+git clone https://github.com/your-username/forex-forecast-api.git
+cd forex-forecast-api
+```
+2. Create virtual Environment and Install Dependencies
+```
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+3. Run the FastAPI app:
+```
+uvicorn app.main:app --reload
+
+```
+4. Access the API:
+```
+Swagger UI: http://127.0.0.1:8000/docs
+ReDoc: http://127.0.0.1:8000/redoc
 ```
