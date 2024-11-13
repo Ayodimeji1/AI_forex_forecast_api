@@ -96,3 +96,21 @@ docker build -t forex-forecast .
 ```
 docker run -p 8000:8000 forex-forecast
 ```
+### Deploy to Heroku
+1. Log in to Heroku and set up the app:
+```
+heroku login
+heroku create forex-forecast --stack=container
+
+```
+### Push the Docker image to Heroku:
+```
+heroku container:push web -a forex-forecast
+heroku container:release web -a forex-forecast
+```
+
+### Open the app:
+```
+heroku open -a forex-forecast
+```
+**Deployed URL: https://forex-forecast-fde2872e4c4d.herokuapp.com/**
