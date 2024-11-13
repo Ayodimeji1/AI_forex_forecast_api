@@ -40,13 +40,14 @@ The **Forex Forecast API** is a FastAPI application designed to provide accurate
 ```
 
 ### Response Example
+```
 {
   "forecast": 1.2345
 }
-
+```
 
 ### Project Structure
-
+```
 project/
 ├── app/
 │   ├── main.py            # Entry point for the FastAPI app
@@ -57,4 +58,4 @@ project/
 ├── Dockerfile             # Docker configuration
 ├── requirements.txt       # Python dependencies
 └── Procfile               # Heroku process definition
-
+```
