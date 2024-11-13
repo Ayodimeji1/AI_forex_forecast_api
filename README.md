@@ -1,7 +1,3 @@
-# Let's create the README.md file with the content
-
-# Define the content for the README.md
-readme_content = """
 # Forex Forecast API
 
 ## Overview
@@ -41,6 +37,7 @@ The **Forex Forecast API** is a FastAPI application designed to provide accurate
     // ... 10 time steps in total
   ]
 }
+```
 
 ### Response Example
 {
